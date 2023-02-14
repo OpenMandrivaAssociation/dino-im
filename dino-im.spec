@@ -9,6 +9,7 @@ URL:		https://github.com/dino/dino
 Source0:	https://github.com/dino/dino/releases/download/v%{version}/dino-%{version}.tar.gz
 
 BuildRequires:	cmake
+BuildRequires:	ninja
 BuildRequires:	gettext
 BuildRequires:	vala
 BuildRequires:	pkgconfig(icu-uc)
