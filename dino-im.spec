@@ -31,7 +31,7 @@ BuildRequires:	pkgconfig(webrtc-audio-processing)
 A modern XMPP ("Jabber") chat client using GTK+/Vala.
 
 %prep
-%autosetup _n %{oname}-%{version} -p1
+%autosetup -n %{oname}-%{version} -p1
 
 %build
 %cmake -GNinja
