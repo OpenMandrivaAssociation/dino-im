@@ -1,6 +1,6 @@
 %define oname dino
 Name:		dino-im
-Version:	0.4.0
+Version:	0.4.4
 Release:	1
 Group:		Networking/Chat
 License:	GPLv3
